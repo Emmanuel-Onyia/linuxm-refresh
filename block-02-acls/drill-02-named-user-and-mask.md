@@ -51,9 +51,9 @@ Once extended ACL entries exist:
 
 - Linux introduces a mask to define the maximum effective permissions for all group-class entries
 - The mask applies to:
-	-Named users
-	-The owning group
-	-Named groups
+	- Named users
+	- The owning group
+	- Named groups
 - ls -l displays the mask value in the group permission field
 
 This behavior is intentional and often leads to confusion if ACLs are not
